@@ -35,7 +35,13 @@ li {
     margin: 5%;
     text-decoration-color: black;
     font-family: Verdana;
+    text-shadow: 2px 2px 5px white;
 
+}
+
+li a:hover {
+    background-color: red;
+    color: white;
 }
 
 #logo {

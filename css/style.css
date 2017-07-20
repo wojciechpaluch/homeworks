@@ -1,0 +1,88 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 350%;
+    width: 200px;
+    padding: 0% 40% 0%;
+    color: darkblue;
+    border-color: aliceblue;
+    text-shadow: white 0.1em 0.1em 0.2em
+
+}
+
+footer {
+    display: inline-block;
+    width: 100px;
+    padding: 10% 47% 45%;
+}
+
+#sekcja1 {
+    display: inline-block;
+    width: 200px;
+
+}
+
+ul {
+    padding: 0% 25% 0%;
+    background-color: #99cc00;
+
+}
+
+li {
+    display: inline-block;
+    margin: 5%;
+
+}
+
+#logo {
+    display: inline-block;
+    padding: 0% 45% 0%;
+}
+
+label {
+    color: black;
+    margin-left: 90px;
+    display: inline-block;;
+
+}
+
+form {
+    display: inline-block;
+    width: 250px;
+    margin-left: 45%;
+    border-color: black;
+    border-width: 2px;
+}
+textarea {
+    height: 100px;
+    width: 240px;
+    resize: horizontal;
+    line-height: 1.4em;
+    background-color: snow;
+    border-color: black;
+    border-width: 2px;
+    box-shadow:  green;
+}
+
+input[type="submit"] {
+    width: 250px;
+    color: white;
+    background-color: green;
+    box-shadow: darkblue;
+    border-color: black;
+    border-width: 2px;
+
+}
+
+input[type="text"] {
+    width: 250px;
+    color: white;
+    background-color: green;
+    box-shadow: darkblue;
+    border-color: black;
+    border-width: 2px;
+
+}

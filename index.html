@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>First page in GitHub</title>
 </head>
 
@@ -11,7 +11,7 @@
 <header>
     <section id="logo">
 
-        <img src="" alt="logo"/>
+        <img src="images/logo.png" alt="logo"/>
 
     </section>
     <section id="sekcja1">
@@ -38,6 +38,18 @@
             <h3> Nagłowek 3</h3>
             <p> Tekst paragrafu Tekst paragrafu Tekst paragrafuTekst paragrafu Tekst paragrafu Tekst paragrafu Tekst
                 paragrafu Tekst paragrafu </p>
+
+
+            <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                <input type="hidden" name="reply-to" value="wojciech.paluch@o2.pl">
+
+                <label> Your name:</label> <input type="text" name="name">
+                <label> Your e-mail:</label><input type="text" name="email">
+                <label> Message: </label>
+                <textarea name="message">Proszę wpisać tekst wiadomości</textarea>
+                <input type="submit" value="Send Message">
+
+            </form>
         </section>
     </article>
 </main>

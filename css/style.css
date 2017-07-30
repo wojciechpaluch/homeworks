@@ -46,7 +46,7 @@ li a:hover {
 
 #logo {
     display: inline-block;
-    padding: 0% 0% 0% 45%;
+    margin-left: 5%;
 }
 
 label {
